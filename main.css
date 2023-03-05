@@ -77,6 +77,11 @@ section#leftColumn {
     margin: 0;
     background-color: aqua;
 }
+
+img {
+    width: 100%;
+}
+
 section#rightColumn {
     clear: right;
     float: right;

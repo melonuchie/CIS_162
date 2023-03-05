@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+html {
+    background-color: black;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+    background-color: deepskyblue; 
+    font-family: 'Comic Sans MS', cursive;
+}
+
+header {
+    background-color: ghostwhite;
+}
+
+body > header > nav.horizontalNavigation li {
+    width: 33%;
+    display: block;
+    background-color: deepskyblue;
+}
+
+nav.horizontalNavigation li {
+    display: block;
+    float: left;
+}
+
+nav.horizontalNavigation a {
+    display: block;
+    float: left;
+}
+
+nav > ol {
+    font-size: 1.5em;
+    line-height: 1em;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+nav > ol > li > a:hover, nav > ol > li > a:active {
+       color: rgb(255, 0, 139);
+       background-color: aqua;
+}
+
+a:hover {
+    color: mediumvioletred;
+}
+
+h1 {
+    text-align: center;
+    color: mediumvioletred;
+    font-size: 2.5em;
+}
+
+section {
+    background-color: deepskyblue;
+    font-size: 1em; 
+}
+
+section#leftColumn {
+    clear: left;
+    float: left;
+    width: 50%;
+    border: 15px solid mediumvioletred;
+    padding: 5px;
+    margin: 0;
+    background-color: aqua;
+}
+section#rightColumn {
+    clear: right;
+    float: right;
+    width: 41%;
+    border: 10px solid deepskyblue;
+    padding: 5px;
+    margin: 0;
+    background-color: deepskyblue;
+}
+
+h2 {
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+}
+
+footer {
+    color: black;
+    background-color: ghostwhite;
+    clear: left;
+}
+
+footer::after {
+    clear: both;
+    content: "";
+    display: table;
+}
